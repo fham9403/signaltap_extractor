@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# signaltap_extractor files
+*.csv
+*.stp
