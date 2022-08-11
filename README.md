@@ -5,9 +5,9 @@ signaltap_extractor
 
 ![SignalTap Extractor](images/extractor_image.png)
 
-## Motivation
-
 ----
+
+## Motivation
 
 [SignalTap](https://www.intel.com/content/www/us/en/docs/programmable/683819/21-3/logic-analyzer-introduction.html)
  for Quartus II is a powerful FPGA debugging tool, allowing real-time signal behaviour to be examined.
@@ -22,8 +22,6 @@ Then you can view / process offline in a language of your choice.
 
 ## Usage
 
-----
-
 This program is used from the top-down i.e:
 
 - Load in your .stp file
@@ -35,11 +33,7 @@ This program is used from the top-down i.e:
 - Play selection to view your chosen range
 - Export to CSV
 
-
-
 ## Prerequisites & dependencies
-
-----
 
 - An .stp file with data sorted into groups
 - Python3
@@ -49,15 +43,11 @@ This program is used from the top-down i.e:
 
 ## Be Warned!
 
-----
-
 I am not a Python or QT expert and this code is buggy!
 
 I trust that if you're using this tool then you can diagnose issues yourself.
 
 ## License
-
-----
 
 > You can check out the full license [here](LICENSE)
 
